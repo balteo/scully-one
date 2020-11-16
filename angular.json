@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "scully-one"
+  "defaultProject": "scully-one",
+  "cli": {
+    "analytics": "163e624e-195b-4e57-9840-d96a15b33c11"
+  }
 }

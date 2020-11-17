@@ -1,0 +1,22 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
+  <div>
+    <label for="customer">
+      Customer
+    </label>
+    <input id="customer" type="text" formControlName="Customer">
+  </div>
+  <div>
+    <label for="quantity">
+      Quantity
+    </label>
+    <input id="quantity" type="text" formControlName="Quantity">
+  </div>
+  <div>
+    <label for="price">
+      Price
+    </label>
+    <input id="price" type="text" formControlName="Price">
+  </div>
+
+  <button class="button" type="submit">Purchase</button>
+</form>
